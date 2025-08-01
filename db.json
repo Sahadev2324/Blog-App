@@ -1,0 +1,110 @@
+{
+  "blogs": [
+    {
+      "id": 1,
+      "title": "Exploring the Future of Technology",
+      "author": "Admin",
+      "category": "Tech",
+      "date": "2025-07-20",
+      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475",
+      "content": "Technology is evolving faster than ever. From AI and robotics to quantum computing, the future looks promising for tech enthusiasts..."
+    },
+    {
+      "id": 2,
+      "title": "Creating Balance in Everyday Life",
+      "author": "Guest Writer",
+      "category": "Lifestyle",
+      "date": "2025-07-15",
+      "image": "https://cdn.shedefined.com.au/wp-content/uploads/2022/06/07113854/10-ways-to-create-balance-in-your-life-when-you-need-it-most-960x540-1.jpg",
+      "content": "Lifestyle is all about balance. In this blog, we explore tips for improving mental and physical health in a busy world..."
+    },
+    {
+      "id": 3,
+      "title": "5 Tips to Improve Your Learning Skills",
+      "author": "Admin",
+      "category": "Education",
+      "date": "2025-07-10",
+      "image": "https://blog.mmumullana.org/wp-content/uploads/2018/11/5-Secret-Tips-to-Improve-Your-Learning.png",
+      "content": "Whether you're a student or a lifelong learner, these five tips will help you retain knowledge and stay motivated to learn more..."
+    },
+    {
+      "id": 4,
+      "title": "Top 10 Programming Languages in 2025",
+      "author": "Admin",
+      "category": "Tech",
+      "date": "2025-07-12",
+      "image": "https://cdn.analyticsvidhya.com/wp-content/uploads/2024/04/Top-10-Programming-Languages-in-2024_-using-these-logos-scaled.jpg",
+      "content": "From Python to Rust, here's a comprehensive list of programming languages dominating the tech world in 2025..."
+    },
+    {
+      "id": 5,
+      "title": "Mindfulness Techniques That Actually Work",
+      "author": "Guest Writer",
+      "category": "Lifestyle",
+      "date": "2025-07-18",
+      "image": "https://images.unsplash.com/photo-1506126613408-eca07ce68773",
+      "content": "Mindfulness can reduce stress, improve focus, and boost emotional well-being. Here's how to practice it effectively..."
+    },
+    {
+      "id": 6,
+      "title": "Remote Learning Tools for Students",
+      "author": "Admin",
+      "category": "Education",
+      "date": "2025-07-05",
+      "image": "https://www.teachthought.com/wp-content/uploads/2021/01/best-remote-learning-teaching-tools.png",
+      "content": "From virtual classrooms to AI-based tutors, here are the top tools empowering remote learners around the globe..."
+    },
+    {
+      "id": 7,
+      "title": "Smart Gadgets That Can Save You Time",
+      "author": "Admin",
+      "category": "Tech",
+      "date": "2025-07-22",
+      "image": "https://blog.getdistributors.com/wp-content/uploads/2023/07/10-Must-Have-Smart-Devices-for-a-Productive-and-Easy-Life.jpg",
+      "content": "Gadgets are more than toys — they can optimize your routine. Here's a list of smart tools that actually make a difference..."
+    },
+    {
+      "id": 8,
+      "title": "The Importance of Sleep Hygiene",
+      "author": "Guest Writer",
+      "category": "Lifestyle",
+      "date": "2025-07-17",
+      "image": "https://www.verywellmind.com/thmb/hIl6br-GpVU21JAeLvp4FrONUUQ=/2000x0/filters:no_upscale():max_bytes(150000):strip_icc()/what-is-sleep-hygiene-5085887-FINAL-831b8421e75249f0952fbf4efb0adda7.png",
+      "content": "Your sleep habits affect your mood, focus, and health. Here are science-backed ways to sleep better..."
+    },
+    {
+      "id": 9,
+      "title": "Lifelong Learning: Why It Matters",
+      "author": "Admin",
+      "category": "Education",
+      "date": "2025-07-08",
+      "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c",
+      "content": "Education doesn't stop after school. Discover how continuous learning benefits your career and brain health..."
+    },
+    {
+      "id": 10,
+      "title": "AI vs Human Creativity: A Deep Dive",
+      "author": "Admin",
+      "category": "Tech",
+      "date": "2025-07-26",
+      "image": "https://nourinnoushad.com/wp-content/uploads/2025/02/ai-vs-human-creativity.webp",
+      "content": "Can AI truly be creative? In this blog, we explore the differences between machine-generated art and human imagination..."
+    }
+  ],
+  "authors": [
+    { "id": 1, "name": "Admin" },
+    { "id": 2, "name": "Guest Writer" }
+  ],
+  "categories": [
+    { "id": 1, "name": "Tech" },
+    { "id": 2, "name": "Lifestyle" },
+    { "id": 3, "name": "Education" }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "username": "admin",
+      "password": "123456"
+    }
+  ]
+}

@@ -28,6 +28,33 @@
   color: #61dafb;
 }
 
+/* Blog card content truncation - polished */
+.card-text.text-truncate {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;   /* For WebKit browsers like Chrome/Safari */
+  line-clamp: 3;           /* Standard syntax for newer spec-compliant browsers */
+  -webkit-box-orient: vertical;
+}
+
+
+/* Fade-in animation for blog detail content */
+.fade-in {
+  animation: fadeIn 0.8s ease-in-out both;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

@@ -1,0 +1,49 @@
+/* src/components/Filter.css */
+
+/* Fixed-position sidebar on desktop (absolute instead of fixed) */
+.filter-sidebar {
+  position: absolute;
+  top: 80px; /* Adjust if navbar is taller */
+  left: 20px;
+  width: 250px;
+  height: 350px; /* Fixed height box */
+  padding: 1rem;
+  background-color: #f8f9fa;
+  border: 1px solid #dee2e6;
+  border-radius: 8px;
+  overflow-y: auto;
+  z-index: 1000;
+}
+
+/* Collapsed state styling */
+.filter-sidebar.collapsed {
+  height: auto;
+  width: auto;
+  padding: 1rem;
+}
+
+/* Header layout for title and button */
+.filter-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.5rem; /* Add spacing between title and button */
+}
+
+/* Optional title styling */
+.filter-title {
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+/* Responsive behavior for small screens */
+@media (max-width: 768px) {
+  .filter-sidebar {
+    position: static;
+    width: 100%;
+    margin-bottom: 1rem;
+    height: auto;
+    left: auto;
+    top: auto;
+  }
+}
