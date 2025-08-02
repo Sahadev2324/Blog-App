@@ -2,7 +2,7 @@
 import axios from 'axios';
 
 const API = axios.create({
-  baseURL: "http://localhost:3001", // Must match your JSON Server port
+  baseURL: "/", // Must match your JSON Server port
 }); // Ensure this matches your running JSON Server port
 
 // -------------------- BLOGS --------------------
