@@ -51,7 +51,7 @@ function App() {
           <Route path="/admin/manage" element={<PrivateRoute><ManageData /></PrivateRoute>} />
         </Routes>
 
-        <ToastContainer position="top-right" autoClose={3000} />
+        <ToastContainer position="top-right" autoClose={3001} />
         <Toaster position="bottom-right" />
       </div>
     </Router>
