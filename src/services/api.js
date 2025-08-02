@@ -1,7 +1,9 @@
 // src/api/blogApi.js
 import axios from 'axios';
 
-const API_URL = 'http://localhost:3001'; // Ensure this matches your running JSON Server port
+const API = axios.create({
+  baseURL: "http://localhost:3001", // Must match your JSON Server port
+}); // Ensure this matches your running JSON Server port
 
 // -------------------- BLOGS --------------------
 export const getBlogs = () => axios.get(`${API_URL}/blogs`).then(res => res.data);
